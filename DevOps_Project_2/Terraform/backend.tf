@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "state-file"
+    bucket = "vishstate-file"
     key = "server_name/statefile"
     region = "ap-south-1"
   }
