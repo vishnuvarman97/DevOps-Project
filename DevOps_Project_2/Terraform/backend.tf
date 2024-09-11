@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "vishstate-file"
+    bucket = "kop123"
     key = "server_name/statefile"
-    region = "us-east-1"
+    region = "ap-south-1"
   }
 }  
