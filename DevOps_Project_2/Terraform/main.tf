@@ -12,4 +12,8 @@ resource "aws_instance" "demo_server" {
     volume_size = 8
     volume_type = "gp2"
   }
+  
+  tags = {
+    Name = "vish"
+  }
 }
